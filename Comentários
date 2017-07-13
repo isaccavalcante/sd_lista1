@@ -1,0 +1,24 @@
+Questão 1:
+
+Foram mudados os argumentos de envio (arg[0]) para o endereço de loopback ("localhost" ou "127.0.0.1") e os argumentos da mensagem a ser enviada (arg[1]) para "Hello World!", em ambas as classes de ambos protocolos.
+
+Questão 2:
+
+O servidor processa uma string recebida do cliente que contenha os simbolos matemáticos ou de adição, ou subtração,  ou multiplicação, ou divisão,  e utiliza o método "split()" para pegar cada número e realizar a operação correspondente e por fim enviar a resposta ao cliente.
+
+Questão 3:
+
+Agora ambos cliente e servidor possuem métodos "in.readUTF()" e "out.writeUTF()" para trocarem mensagens, uma por vez.
+
+Questão 4:
+
+Foram Criadas duas threads "send" e "receive", para que assim tanto cliente como servidor possam enviar e receber mensagens a qualquer momento.
+
+Questão 5:
+ 
+Antes as mensagens eram facilmente capturadas com o auxílio de sniffers, por exemplo Wireshark (ver Fig1). Foi adicionado o serviço "Cifra de César" para dificultar a leitura dessas mensagens uma vez capturadas (ver Fig2).
+
+Questaõ 6:
+
+O serviço "Cifra de César" foi transformado em Singleton.
+
